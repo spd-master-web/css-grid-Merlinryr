@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.ctn-grid {
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 2fr 0.5fr 4fr 1fr 1fr 2fr;
+  grid-template-rows: 3fr 2fr 4fr 2fr;
+}
+
+.grid-cell {
+  background-color: pink;
+  border: solid 5px black;
+}
+
+
+/* ////////////////////////////////////// */
+/* GRID CELL COLOURS */
+
+.grid-cell:first-child {
+  background-color: red;
+}
+
+.grid-cell:nth-child(2) {
+  background-color: yellow;
+}
+
+.grid-cell:nth-child(3) {
+  background-color: white;
+}
+
+.grid-cell:nth-child(4) {
+  background-color: red;
+}
+
+.grid-cell:nth-child(5) {
+  background-color: blue;
+}
+
+.grid-cell:nth-child(6) {
+  background-color: yellow;
+}
+
+.grid-cell:nth-child(7) {
+  background-color: blue;
+}
+
+.grid-cell:nth-child(8) {
+  background-color: orange;
+}
+
+.grid-cell:nth-child(9) {
+  background-color: red;
+}
+
+.grid-cell:nth-child(10) {
+  background-color: white;
+}
+
+.grid-cell:nth-child(11) {
+  background-color: red;
+}
+
+.grid-cell:nth-child(12) {
+  background-color: blue;
+}
+
+.grid-cell:nth-child(13) {
+  background-color: red;
+}
+
+.grid-cell:nth-child(14) {
+  background-color: white;
+}
+
+.grid-cell:nth-child(15) {
+  background-color: blue;
+}
+
+.grid-cell:nth-child(16) {
+  background-color: yellow;
+}
+
+.grid-cell:nth-child(17) {
+  background-color: white;
+}
+
+.grid-cell:nth-child(18) {
+  background-color: yellow;
+}
+
+.grid-cell:nth-child(19) {
+  background-color: blue;
+}
+
+.grid-cell:nth-child(20) {
+  background-color: yellow;
+}
+
+.grid-cell:nth-child(21) {
+  background-color: white;
+}
+
+.grid-cell:nth-child(22) {
+  background-color: red;
+}
+
+.grid-cell:nth-child(23) {
+  background-color: orange;
+}
+
+.grid-cell:nth-child(24) {
+  background-color: blue;
+}
